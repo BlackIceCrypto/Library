@@ -12,7 +12,7 @@ PUB_KEY="aaaaaaaaaa"
 
 #PATH to files
 ssh_config_dir="/etc/ssh"
-ssh_key_dir="~/.ssh"
+ssh_key_dir="$HOME/.ssh"
 auth_keys="$ssh_key_dir/authorized_keys"
 
 ssh_setup(){
