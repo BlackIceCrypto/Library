@@ -6,7 +6,7 @@ TG_CHAT_ID=""
 TG_THREAD_ID=""
 
 #You can add your castom servername here
-#SERVER_NAME=""
+SERVER_NAME=""
 DISK_MAX=89
 DISK_USAGE=$(df -h / | awk 'NR==2 {print $5}' | sed 's/%//')
 
